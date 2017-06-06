@@ -11,6 +11,6 @@
 #define PCA9685_MAX_DUTY_CICLE 4095
 #define PCA9685_REGISTERS_PER_CHANNEL 4
 int PCA9685_init(i2c bus);
-int PCA9685_setDutyCicle(i2c bus, char channel, unsigned short value);
+int PCA9685_setDutyCicle(i2c bus, char channel, short value);
 int PCA9685_setFreq(i2c bus, unsigned short freq);
 int PCA9685_stop(i2c bus);
