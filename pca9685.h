@@ -1,4 +1,4 @@
-#include "i2c.h"
+#include "i2c/i2c.h"
 #define PCA9685_MODE1 0x00
 #define PCA9685_MODE2 0x01
 #define PCA9685_LED0_ON_L 0x06
